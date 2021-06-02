@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="BaseAppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textViewStyle">@style/TextViewAppearance</item>
+        <item name="android:editTextStyle">@style/EditTextAppearance</item>
+        <item name="editTextStyle">@style/EditTextAppearance</item>
+    </style>
+
+
+    <!-- BottomBar Style =================================================================== -->
+
+    <style name="BottomBarTheme" parent="BaseAppTheme">
+
+    </style>
+
+    <style name="BB_BottomBarItem">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/bb_height</item>
+    </style>
+
+    <style name="BB_BottomBarItem_TitleStyle">
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">@font/sans</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="BB_BottomBarItem_Fixed.TitleAppearance" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/sans</item>
+    </style>
+
+    <style name="BB_BottomBarItem_Shifting.TitleAppearance" parent="BB_BottomBarItem_Fixed.TitleAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="BB_BottomBarItem_Tablet">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <style name="BB_BottomBarBadge_Text" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/sans</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+
+    <!-- Text Style ======================================================================= -->
+
+    <style name="ToastTheme">
+        <item name="colorControlNormal">#ee454545</item>
+        <item name="android:textAppearance">@style/TextViewAppearance</item>
+    </style>
+
+
+    <!-- Text Style ======================================================================= -->
+
+    <style name="TextViewAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/sans</item>
+        <item name="fontFamily">@font/sans</item>
+    </style>
+
+
+    <style name="TextViewAppearance.Thin">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+
+    <style name="TextViewAppearance.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="TextViewAppearance.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?attr/titleTextColor</item>
+    </style>
+
+
+    <style name="TextViewAppearance.White">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+
+    <style name="TextViewAppearance.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+    <style name="TextViewAppearance.White.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="TextViewAppearance.Title.White">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+
+    <style name="TextViewAppearance.Title.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="TextViewAppearance.Title.Bold.White">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+
+    <style name="TextViewAppearance.Subtitle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/subtitleTextColor</item>
+    </style>
+
+
+    <style name="TextViewAppearance.Caption">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="TextInputLayoutAppearance" parent="@style/TextViewAppearance">
+
+    </style>
+
+    <style name="TextInputLayoutAppearance.error">
+        <item name="android:textColor">?attr/colorError</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+
+    <style name="TextInputLayoutAppearance.hint">
+        <item name="android:textColor">?android:attr/textColorHint</item>
+    </style>
+
+
+    <style name="EditTextAppearance" parent="Widget.AppCompat.EditText">
+        <item name="android:textAppearance">@style/TextViewAppearance</item>
+    </style>
+
+    <style name="EditTextAppearance.White">
+        <item name="android:textAppearance">@style/TextViewAppearance.White</item>
+        <item name="colorAccent">?android:attr/colorForegroundInverse</item>
+        <item name="colorControlNormal">?android:attr/colorForegroundInverse</item>
+    </style>
+
+
+</resources>

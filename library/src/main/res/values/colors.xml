@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bb_inActiveBottomBarItemColor">#747474</color>
+    <color name="bb_tab_active">#3f51b5</color>
+    <color name="bb_tab_inactive">#8f8f9f</color>
+
+</resources>
